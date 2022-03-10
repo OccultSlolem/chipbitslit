@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329C7BB727DAC28F007B07B9 /* chipbitslitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BB627DAC28F007B07B9 /* chipbitslitApp.swift */; };
+		329C7BB927DAC28F007B07B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BB827DAC28F007B07B9 /* ContentView.swift */; };
+		329C7BBB27DAC291007B07B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329C7BBA27DAC291007B07B9 /* Assets.xcassets */; };
+		329C7BBE27DAC291007B07B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329C7BBD27DAC291007B07B9 /* Preview Assets.xcassets */; };
+		329C7BC027DAC291007B07B9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BBF27DAC291007B07B9 /* Persistence.swift */; };
+		329C7BC327DAC291007B07B9 /* chipbitslit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BC127DAC291007B07B9 /* chipbitslit.xcdatamodeld */; };
+		329C7BCE27DAC292007B07B9 /* chipbitslitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BCD27DAC292007B07B9 /* chipbitslitTests.swift */; };
+		329C7BD827DAC292007B07B9 /* chipbitslitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BD727DAC292007B07B9 /* chipbitslitUITests.swift */; };
+		329C7BDA27DAC292007B07B9 /* chipbitslitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7BD927DAC292007B07B9 /* chipbitslitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		329C7BCA27DAC292007B07B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329C7BAB27DAC28F007B07B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329C7BB227DAC28F007B07B9;
+			remoteInfo = chipbitslit;
+		};
+		329C7BD427DAC292007B07B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329C7BAB27DAC28F007B07B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329C7BB227DAC28F007B07B9;
+			remoteInfo = chipbitslit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		329C7BB327DAC28F007B07B9 /* chipbitslit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chipbitslit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329C7BB627DAC28F007B07B9 /* chipbitslitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chipbitslitApp.swift; sourceTree = "<group>"; };
+		329C7BB827DAC28F007B07B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		329C7BBA27DAC291007B07B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329C7BBD27DAC291007B07B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		329C7BBF27DAC291007B07B9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		329C7BC227DAC291007B07B9 /* chipbitslit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chipbitslit.xcdatamodel; sourceTree = "<group>"; };
+		329C7BC427DAC291007B07B9 /* chipbitslit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chipbitslit.entitlements; sourceTree = "<group>"; };
+		329C7BC927DAC292007B07B9 /* chipbitslitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chipbitslitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329C7BCD27DAC292007B07B9 /* chipbitslitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chipbitslitTests.swift; sourceTree = "<group>"; };
+		329C7BD327DAC292007B07B9 /* chipbitslitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chipbitslitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329C7BD727DAC292007B07B9 /* chipbitslitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chipbitslitUITests.swift; sourceTree = "<group>"; };
+		329C7BD927DAC292007B07B9 /* chipbitslitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chipbitslitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329C7BB027DAC28F007B07B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329C7BC627DAC292007B07B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329C7BD027DAC292007B07B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329C7BAA27DAC28F007B07B9 = {
+			isa = PBXGroup;
+			children = (
+				329C7BB527DAC28F007B07B9 /* chipbitslit */,
+				329C7BCC27DAC292007B07B9 /* chipbitslitTests */,
+				329C7BD627DAC292007B07B9 /* chipbitslitUITests */,
+				329C7BB427DAC28F007B07B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329C7BB427DAC28F007B07B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329C7BB327DAC28F007B07B9 /* chipbitslit.app */,
+				329C7BC927DAC292007B07B9 /* chipbitslitTests.xctest */,
+				329C7BD327DAC292007B07B9 /* chipbitslitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329C7BB527DAC28F007B07B9 /* chipbitslit */ = {
+			isa = PBXGroup;
+			children = (
+				329C7BB627DAC28F007B07B9 /* chipbitslitApp.swift */,
+				329C7BB827DAC28F007B07B9 /* ContentView.swift */,
+				329C7BBA27DAC291007B07B9 /* Assets.xcassets */,
+				329C7BBF27DAC291007B07B9 /* Persistence.swift */,
+				329C7BC427DAC291007B07B9 /* chipbitslit.entitlements */,
+				329C7BC127DAC291007B07B9 /* chipbitslit.xcdatamodeld */,
+				329C7BBC27DAC291007B07B9 /* Preview Content */,
+			);
+			path = chipbitslit;
+			sourceTree = "<group>";
+		};
+		329C7BBC27DAC291007B07B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				329C7BBD27DAC291007B07B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		329C7BCC27DAC292007B07B9 /* chipbitslitTests */ = {
+			isa = PBXGroup;
+			children = (
+				329C7BCD27DAC292007B07B9 /* chipbitslitTests.swift */,
+			);
+			path = chipbitslitTests;
+			sourceTree = "<group>";
+		};
+		329C7BD627DAC292007B07B9 /* chipbitslitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				329C7BD727DAC292007B07B9 /* chipbitslitUITests.swift */,
+				329C7BD927DAC292007B07B9 /* chipbitslitUITestsLaunchTests.swift */,
+			);
+			path = chipbitslitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329C7BB227DAC28F007B07B9 /* chipbitslit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329C7BDD27DAC292007B07B9 /* Build configuration list for PBXNativeTarget "chipbitslit" */;
+			buildPhases = (
+				329C7BAF27DAC28F007B07B9 /* Sources */,
+				329C7BB027DAC28F007B07B9 /* Frameworks */,
+				329C7BB127DAC28F007B07B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chipbitslit;
+			productName = chipbitslit;
+			productReference = 329C7BB327DAC28F007B07B9 /* chipbitslit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		329C7BC827DAC292007B07B9 /* chipbitslitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329C7BE027DAC292007B07B9 /* Build configuration list for PBXNativeTarget "chipbitslitTests" */;
+			buildPhases = (
+				329C7BC527DAC292007B07B9 /* Sources */,
+				329C7BC627DAC292007B07B9 /* Frameworks */,
+				329C7BC727DAC292007B07B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329C7BCB27DAC292007B07B9 /* PBXTargetDependency */,
+			);
+			name = chipbitslitTests;
+			productName = chipbitslitTests;
+			productReference = 329C7BC927DAC292007B07B9 /* chipbitslitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		329C7BD227DAC292007B07B9 /* chipbitslitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329C7BE327DAC292007B07B9 /* Build configuration list for PBXNativeTarget "chipbitslitUITests" */;
+			buildPhases = (
+				329C7BCF27DAC292007B07B9 /* Sources */,
+				329C7BD027DAC292007B07B9 /* Frameworks */,
+				329C7BD127DAC292007B07B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329C7BD527DAC292007B07B9 /* PBXTargetDependency */,
+			);
+			name = chipbitslitUITests;
+			productName = chipbitslitUITests;
+			productReference = 329C7BD327DAC292007B07B9 /* chipbitslitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329C7BAB27DAC28F007B07B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					329C7BB227DAC28F007B07B9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					329C7BC827DAC292007B07B9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 329C7BB227DAC28F007B07B9;
+					};
+					329C7BD227DAC292007B07B9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 329C7BB227DAC28F007B07B9;
+					};
+				};
+			};
+			buildConfigurationList = 329C7BAE27DAC28F007B07B9 /* Build configuration list for PBXProject "chipbitslit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329C7BAA27DAC28F007B07B9;
+			productRefGroup = 329C7BB427DAC28F007B07B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329C7BB227DAC28F007B07B9 /* chipbitslit */,
+				329C7BC827DAC292007B07B9 /* chipbitslitTests */,
+				329C7BD227DAC292007B07B9 /* chipbitslitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329C7BB127DAC28F007B07B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329C7BBE27DAC291007B07B9 /* Preview Assets.xcassets in Resources */,
+				329C7BBB27DAC291007B07B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329C7BC727DAC292007B07B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329C7BD127DAC292007B07B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329C7BAF27DAC28F007B07B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329C7BC027DAC291007B07B9 /* Persistence.swift in Sources */,
+				329C7BB927DAC28F007B07B9 /* ContentView.swift in Sources */,
+				329C7BB727DAC28F007B07B9 /* chipbitslitApp.swift in Sources */,
+				329C7BC327DAC291007B07B9 /* chipbitslit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329C7BC527DAC292007B07B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329C7BCE27DAC292007B07B9 /* chipbitslitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329C7BCF27DAC292007B07B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329C7BDA27DAC292007B07B9 /* chipbitslitUITestsLaunchTests.swift in Sources */,
+				329C7BD827DAC292007B07B9 /* chipbitslitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		329C7BCB27DAC292007B07B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329C7BB227DAC28F007B07B9 /* chipbitslit */;
+			targetProxy = 329C7BCA27DAC292007B07B9 /* PBXContainerItemProxy */;
+		};
+		329C7BD527DAC292007B07B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329C7BB227DAC28F007B07B9 /* chipbitslit */;
+			targetProxy = 329C7BD427DAC292007B07B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		329C7BDB27DAC292007B07B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		329C7BDC27DAC292007B07B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		329C7BDE27DAC292007B07B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chipbitslit/chipbitslit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chipbitslit/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.chipbitslit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		329C7BDF27DAC292007B07B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chipbitslit/chipbitslit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chipbitslit/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.chipbitslit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		329C7BE127DAC292007B07B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.chipbitslitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chipbitslit.app/Contents/MacOS/chipbitslit";
+			};
+			name = Debug;
+		};
+		329C7BE227DAC292007B07B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.chipbitslitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chipbitslit.app/Contents/MacOS/chipbitslit";
+			};
+			name = Release;
+		};
+		329C7BE427DAC292007B07B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.chipbitslitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chipbitslit;
+			};
+			name = Debug;
+		};
+		329C7BE527DAC292007B07B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.chipbitslitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chipbitslit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329C7BAE27DAC28F007B07B9 /* Build configuration list for PBXProject "chipbitslit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329C7BDB27DAC292007B07B9 /* Debug */,
+				329C7BDC27DAC292007B07B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329C7BDD27DAC292007B07B9 /* Build configuration list for PBXNativeTarget "chipbitslit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329C7BDE27DAC292007B07B9 /* Debug */,
+				329C7BDF27DAC292007B07B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329C7BE027DAC292007B07B9 /* Build configuration list for PBXNativeTarget "chipbitslitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329C7BE127DAC292007B07B9 /* Debug */,
+				329C7BE227DAC292007B07B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329C7BE327DAC292007B07B9 /* Build configuration list for PBXNativeTarget "chipbitslitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329C7BE427DAC292007B07B9 /* Debug */,
+				329C7BE527DAC292007B07B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		329C7BC127DAC291007B07B9 /* chipbitslit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				329C7BC227DAC291007B07B9 /* chipbitslit.xcdatamodel */,
+			);
+			currentVersion = 329C7BC227DAC291007B07B9 /* chipbitslit.xcdatamodel */;
+			path = chipbitslit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 329C7BAB27DAC28F007B07B9 /* Project object */;
+}
